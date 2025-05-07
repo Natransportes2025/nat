@@ -1,0 +1,105 @@
+.duffel-flight-search-wrapper {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+.duffel-flight-search-wrapper .form-row {
+    margin-bottom: 15px;
+}
+
+.duffel-flight-search-wrapper label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.duffel-flight-search-wrapper input[type="text"],
+.duffel-flight-search-wrapper input[type="date"],
+.duffel-flight-search-wrapper input[type="number"],
+.duffel-flight-search-wrapper select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Para padding não aumentar a largura total */
+}
+
+.duffel-flight-search-wrapper input[type="submit"] {
+    background-color: #0073aa; /* Cor azul do WordPress */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.duffel-flight-search-wrapper input[type="submit"]:hover {
+    background-color: #005a87;
+}
+
+.duffel-search-results {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px dashed #ccc;
+}
+
+.duffel-error {
+    color: red;
+    border: 1px solid red;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #ffe0e0;
+}
+
+.flight-offers-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.flight-offer-item {
+    border: 1px solid #eee;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #fff;
+}
+
+.flight-offer-item h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+.flight-offer-item .slice-details {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #f0f0f0;
+}
+.flight-offer-item .slice-details:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.flight-offer-item .offer-airline,
+.flight-offer-item .offer-price,
+.flight-offer-item .offer-actions {
+    margin-bottom: 10px;
+}
+
+.flight-offer-item .offer-airline img {
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.select-offer-button {
+    display: inline-block;
+    background-color: #2271b1; /* Outro tom de azul WP */
+    color: #fff;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.select-offer-button:hover {
+    background-color: #185a8c;
+    color: #fff;
+}
